@@ -1,10 +1,40 @@
 /* AVATAR-TEMPLATE-BEGIN */
 /*{id} is userid in data.json and {img} is the image link, usually gif*/
-.userAvatar_c4f005[style*="{id}"]
-,.avatar__08316[src^="https://cdn.discordapp.com/avatars/{id}"]
-,.avatar__991e2[src^="https://cdn.discordapp.com/avatars/{id}"]
-,.avatar__777a6[src^="https://cdn.discordapp.com/avatars/{id}"] {
-  content: url({img});
-  background-image: none !important;
+/*Popout*/
+.userPopoutInner_f545a3:has(>.clickable__35918>div>div>svg>foreignObject>.avatarStack__6604a>[src^="https://cdn.discordapp.com/avatars/{id}"]) {
+  &:before {
+    background-image: url({img});
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    content: "";
+    width: 340px;
+    max-height: 120px;
+  }
+  &>.bannerSVGWrapper__3e7b0 {
+    height: 120px;
+    &>foreignObject>.banner__6d414 {
+      background: none !important;
+    }
+  }
+}
+
+/*Full Profile*/
+.topSection_dfb73b:has(>header>div>div:first-child>div>.mask__1979f>foreignObject>div>.avatar__991e2[src^="https://cdn.discordapp.com/avatars/{id}"]) {
+  &:before {
+    background-image: url({img});
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    content: "";
+    width: 600px;
+    height: 212px;
+    display: block;
+    position: absolute;
+  }
+  &>header>.bannerSVGWrapper__3e7b0 {
+    height: 212px;
+    &>foreignObject>.banner__6d414 {
+      background: none !important;
+    }
+  }
 }
 /* AVATAR-TEMPLATE-END */

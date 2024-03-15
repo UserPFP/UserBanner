@@ -37,7 +37,7 @@ const data = JSON.parse(
 
 const dist = [];
 
-for (const [id, img] of Object.entries(data.avatars)) {
+for (const [id, img] of Object.entries(data.banners)) {
   dist.push(templates.avatar.replace(/{id}/g, id).replace(/{img}/g, img));
 }
 

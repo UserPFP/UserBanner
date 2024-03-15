@@ -13,11 +13,11 @@ const imageMatcher = /url\((?:'|")([^'"]+)(?:'|")\)/;
 const avatarMatcher = /^\/\* Custom avatar for ([0-9]+) \*\/$/;
 const badgeMatcher = /^\/\* Custom badge for (.*?) \*\/$/;
 
-const avatars = {};
+const banners = {};
 for (let i = 0; i < avis.length; i++) {
   const l = avis[i];
   const id = l.match(avatarMatcher)?.[1];
-  if (id) avatars[id] = avis[i + 2].match(imageMatcher)[1];
+  if (id) banners[id] = avis[i + 2].match(imageMatcher)[1];
 }
 
 const badges = {};
@@ -31,8 +31,7 @@ await writeFile(
   join("../../", "source", "data.json"),
   format(
     JSON.stringify({
-      avatars,
-      badges,
+      banners,
     }),
     {
       parser: "json",

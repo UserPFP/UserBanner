@@ -3,9 +3,7 @@
 /*Popout*/
 .userPopoutInner_f545a3:has(>.clickable__35918>div>div>.mask__1979f>foreignObject>.avatarStack__6604a>.avatar__991e2[src^="https://cdn.discordapp.com/avatars/{id}"]) {
   &:before {
-    background-image: url({img});
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background: url{img) 50% 50% / var(--ub-fillmode, 100% 100%);
     content: "";
     width: 340px;
     max-height: 120px;
@@ -24,9 +22,7 @@
 /*Full Profile*/
 .topSection_dfb73b:has(>header>div>div:first-child>div>.mask__1979f>foreignObject>div>.avatar__991e2[src^="https://cdn.discordapp.com/avatars/{id}"]) {
   &:before {
-    background-image: url({img});
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background: url{img) 50% 50% / var(--ub-fillmode, 100% 100%);
     content: "";
     width: 600px;
     height: 212px;

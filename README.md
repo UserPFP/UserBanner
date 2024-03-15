@@ -1,38 +1,24 @@
-# UserPFP
+# UserBanner
 
-UserPFP is a theme/plugin that allows you to use animated profile pictures in Discord without the need for Nitro!
+UserBanner is currently a prototype for a better version of usrbg with an active leadership
 
-![Profile Picture](https://i.ibb.co/M1zw6C1/image-2023-10-15-150534630.jpg)
+## How to Request a Banner
 
-## How to Request a Profile Picture (PFP)
-
-1. Join the [UserPFP Discord Server](https://discord.gg/userpfp-1129784704267210844).
-2. Familiarize yourself with the server rules.
-3. Navigate to the [#request-here channel](https://discord.com/channels/1129784704267210844/1162800344603037856) and submit your avatar (link/attachment).
-4. Await approval from our team.
-
-All requests are manually reviewed, and you will be notified of their acceptance or denial.
+Message me (coolesding) on the [official UserPFP server](https://discord.gg/userpfp-1129784704267210844)
 
 ## Supported Discord Client Mods
 
 <div style="display: flex; justify-content: space-between;">
     <a href="https://vencord.dev/"><img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" width="100"/></a>
-    <a href="https://replugged.dev/"><img src="https://i.ibb.co/6mdQKcH/109933208-s-200-v-4.png" alt="Replugged Logo" width="100"/></a>
-    <a href="https://vendetta.rocks/"><img src="https://i.ibb.co/vQFh0dy/112445065-s-280-v-4.png" alt="Vendetta Logo" width="100"/></a>
-    <a href="https://aliucord.com/"><img src="https://i.ibb.co/n1d4bjS/68747470733a2f2f692e6962622e636f2f567152307a36582f37383838313432322e706e67.png" alt="Aliucord Logo" width="100"/></a>
-    <a href="https://betterdiscord.app/"><img src="https://betterdiscord.app/resources/branding/logo_solid.png" alt="BetterDiscord Logo" width="100"/></a>
-    <a href="https://openasar.dev/"><img src="https://goosemod.com/img/logo.jpg" alt="OpenAsar Logo" width="100"/></a>
-    <a href="https://aero.icu/"><img src="https://i.ibb.co/vVGLRct/Transparent.png" alt="Aero Logo" width="100"/></a>
 </div>
 
 ## Installation
 
-For detailed installation instructions, please visit the [UserPFP Discord Server's Installation Channel](https://discord.com/channels/1129784704267210844/1158831661832745030).
+Simply put [this link](https://userpfp.github.io/UserBanner/import.css) into your online themes under Settings>Themes>Online Themes
 
-## Banner Alternative
+## Profile Picture Alternative
 
-If you're interested in banners, check out the predecessor to UserPFP - [USRBG](https://github.com/Discord-Custom-Covers/usrbg), which offers a similar functionality.
-
+If you're interested in profile pictures, check out the [actual UserPFP](https://github.com/UserPFP/UserPFP), which offers actual functionality.
 ![USRPFP Logo](https://i.imgur.com/HaFW8J6.png)
 
 ## Development Team

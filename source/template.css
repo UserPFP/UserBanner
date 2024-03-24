@@ -30,7 +30,9 @@
     position: absolute;
   }
   &>header>.bannerSVGWrapper__3e7b0 {
-    height: 212px;
+    height: 0px;
+    padding-bottom: 212px;
+    min-height: 0px !important;
     &>foreignObject>.banner__6d414 {
       background: none !important;
     }

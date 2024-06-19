@@ -1,26 +1,26 @@
 /* AVATAR-TEMPLATE-BEGIN */
 /*{id} is userid in data.json and {img} is the image link, usually gif*/
 /*Popout*/
-.userPopoutInner_e90432:has(>.clickable_f0c9cf>div>div>.mask_d5067d>foreignObject>.avatarStack__789b4>.avatar__991e2[src^="https://cdn.discordapp.com/avatars/{id}"]) {
+.userPopoutInner_c69a7b:has(>.clickable_f89da9>div>div>.mask_c51b4e>foreignObject>.avatarStack_c51b4e>.avatar_c51b4e[src^="https://cdn.discordapp.com/avatars/{id}"]) {
   &:before {
     background: url({img}) center / var(--ub-fillmode, 100% 100%);
     content: "";
     width: 340px;
     max-height: 120px;
   }
-  &>.bannerSVGWrapper__8a38c {
+  &>.bannerSVGWrapper_b32cc2 {
     height: 120px;
-    &>foreignObject>.banner__6d414 {
+    &>foreignObject>.banner_c3e427 {
       background: none !important;
     }
   }
-  &>.clickable_f0c9cf {
+  &>.clickable_f89da9 {
     top: 76px
   }
 }
 
 /*Full Profile*/
-.topSection__2d8b8:has(>header>div>div:first-child>div>.mask_d5067d>foreignObject>div>.avatar__991e2[src^="https://cdn.discordapp.com/avatars/{id}"]) {
+.topSection_b9fccc:has(>header>div>div:first-child>div>.mask_c51b4e>foreignObject>div>.avatar_c51b4e[src^="https://cdn.discordapp.com/avatars/{id}"]) {
   &:before {
     background: url({img}) center / var(--ub-fillmode, 100% 100%);
     content: "";
@@ -29,11 +29,11 @@
     display: block;
     position: absolute;
   }
-  &>header>.bannerSVGWrapper__8a38c {
+  &>header>.bannerSVGWrapper_b32cc2 {
     height: 0px;
     padding-bottom: 212px;
     min-height: 0px !important;
-    &>foreignObject>.banner__6d414 {
+    &>foreignObject>.banner_c3e427 {
       background: none !important;
     }
   }
